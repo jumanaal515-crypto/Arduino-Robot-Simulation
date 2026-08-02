@@ -51,7 +51,7 @@ Although the assignment offered two individual options, this implementation **su
 
 ##  Tinkercad Simulation Link
 You can view and test the live simulation here:
- **[Click Here to Open Tinkercad Simulation]([https://www.tinkercad.com](https://www.tinkercad.com/things/4NaONyVVSFK-daring-jaagub-juttuli/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=3WMCm6FDr6pk6REj7p2dl_W5V5xeaEkpuKMsRT5ZZZw))**
+ **[Click Here to Open Tinkercad Simulation](https://www.tinkercad.com/things/4NaONyVVSFK-daring-jaagub-juttuli/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fthings%2FgN75amTkVb5-powerful-jaagub&sharecode=3WMCm6FDr6pk6REj7p2dl_W5V5xeaEkpuKMsRT5ZZZw)**
 
 ---
 
