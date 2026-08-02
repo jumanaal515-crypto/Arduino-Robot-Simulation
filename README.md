@@ -56,7 +56,7 @@ You can view and test the live simulation here:
 ---
 
 ##  Circuit Diagram
-![Circuit Diagram](./circuit.png)
+![Circuit Diagram]()
 
 ---
 
