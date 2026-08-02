@@ -1,7 +1,7 @@
 #  Arduino Smart Robot Controller (Combined Simulation Task)
 
 ##  Project Overview
-This project is an advanced Arduino-based simulation developed using **Tinkercad**. 
+This project is an advanced Arduino-based simulation developed using **Tinkercad**.
 
 Although the assignment offered two individual options, this implementation **successfully combines both tasks into a single intelligent system**, providing complete motor motion control along with autonomous obstacle detection and avoidance.
 
@@ -16,7 +16,7 @@ Although the assignment offered two individual options, this implementation **su
 
 ###  Task 2 Features: Autonomous Obstacle Avoidance
 * **Distance Sensing:** Uses an **Ultrasonic Distance Sensor** to continuously monitor the path ahead.
-* **Safety Threshold:** If an obstacle is detected within **$\le 10\text{ cm}$**, the system immediately overrides the sequence and stops all motors.
+* **Safety Threshold:** If an obstacle is detected within **<= 10 cm**, the system immediately overrides the sequence and stops all motors.
 * **Environment Scanning:** A **Servo Motor** rotates to scan the surroundings for safe clearance.
 * **Path Rerouting:** Automatically reverses and turns to avoid collision before resuming normal operation.
 
@@ -38,21 +38,27 @@ Although the assignment offered two individual options, this implementation **su
 ##  Circuit Pinout Connections
 
 * **L293D Inputs (Motors Control):**
-  * `IN1` $\rightarrow$ Arduino **Pin 2**
-  * `IN2` $\rightarrow$ Arduino **Pin 3**
-  * `IN3` $\rightarrow$ Arduino **Pin 4**
-  * `IN4` $\rightarrow$ Arduino **Pin 5**
+  * `IN1` -> Arduino **Pin 2**
+  * `IN2` -> Arduino **Pin 3**
+  * `IN3` -> Arduino **Pin 4**
+  * `IN4` -> Arduino **Pin 5**
 * **Ultrasonic Sensor (3-pin):**
-  * `VCC` $\rightarrow 5\text{V}$ | `GND` $\rightarrow \text{GND}$ | `SIG` $\rightarrow$ Arduino **Pin 7**
+  * `VCC` -> 5V | `GND` -> GND | `SIG` -> Arduino **Pin 7**
 * **Servo Motor:**
-  * `VCC` $\rightarrow 5\text{V}$ | `GND` $\rightarrow \text{GND}$ | `Signal` $\rightarrow$ Arduino **Pin 11**
+  * `VCC` -> 5V | `GND` -> GND | `Signal` -> Arduino **Pin 11**
+
+---
+
+##  Tinkercad Simulation Link
+You can view and test the live simulation here:
+ **[Click Here to Open Tinkercad Simulation]([https://www.tinkercad.com](https://www.tinkercad.com/things/4NaONyVVSFK-daring-jaagub-juttuli/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=3WMCm6FDr6pk6REj7p2dl_W5V5xeaEkpuKMsRT5ZZZw))**
+
+---
+
+##  Circuit Diagram
+![Circuit Diagram](./circuit.png)
 
 ---
 
 ##  Source Code
-The complete code (`main.ino`) is included in this repository. It utilizes the `<Servo.h>` library and custom pulse logic to read distance from the 3-pin ultrasonic sensor.
-
----
-
-##  Simulation
-* Developed & Tested on **Tinkercad Circuits**.
+The complete source code (`main.ino`) is included in this repository. It utilizes the `<Servo.h>` library and custom pulse logic to read distance from the 3-pin ultrasonic sensor.
